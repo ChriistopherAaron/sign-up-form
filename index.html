@@ -25,9 +25,35 @@
     <p>All users <strong>must</strong> be 18 years or older!</p>
     <p>This form is just for practice, no data will be shared or stored.</p>
     </div>
+
+    <div class="creation-form">
+        <h2>Create an Account!</h2>
+        <form action="/signup" method="post">
+    <div class="form-row">
+    <div class="form-group">
+        <label for="first-name">First Name</label>
+        <input type="text" id="first-name" name="first-name" required>
+    </div>
+    <div class="form-group">
+        <label for="last-name">Last Name</label>
+        <input type="text" id="last-name" name="last-name" required>
+    </div>
+    <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+    </div>
+    <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" required>
+    </div>
+    <div class="form-group">
+        <label for="confirm-password">Confirm Password</label>
+        <input type="password" id="confirm-password" name="confirm-password" required>
+    </div>
+    <button type="submit">Sign Up</button>
+    </div>
     
 
-    <form action="/signup" method="post">
 
     </form>
     </div> <!-- End of content -->
