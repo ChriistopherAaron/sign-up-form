@@ -1,13 +1,29 @@
-.body {
-
+body {
+font-family: 'Roboto', sans-serif;
+margin: 0;
+display: flex;
+min-height: 100vh;
+}
+.cursive-text {
+    font-family: 'Caveat', cursive;
+    font-size: 1.6rem;
+    margin-top: 15px;
 }
 .sidebar {
-
-
-
+width: 35%;
+background-image: url("images/running-dog.jpeg");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
 }
 .content {
-    flex-direction: wrap;
-    align-items: right;
-    justify-content: flex-end;
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+.signup-info {
+    max-width: 600px;
 }
