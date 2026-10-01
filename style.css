@@ -27,3 +27,43 @@ background-repeat: no-repeat;
 .signup-info {
     max-width: 600px;
 }
+/* Pink Submit Button */
+.submit-btn {
+  background-color: #ff5a79; /* Vibrant pink matching mockup accents */
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.submit-btn:hover {
+  background-color: #e04865; /* Darker pink on hover */
+  transform: translateY(-1px);
+}
+
+.submit-btn:active {
+  transform: translateY(0);
+}
+
+/* Log-In Prompt Text */
+.login-prompt {
+  margin-top: 20px;
+  font-size: 0.95rem;
+  color: #333;
+}
+
+.login-prompt a {
+  color: #ff5a79; /* Matching pink for the login link */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.login-prompt a:hover {
+  text-decoration: underline;
+}
