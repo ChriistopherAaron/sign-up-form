@@ -67,3 +67,40 @@ background-repeat: no-repeat;
 .login-prompt a:hover {
   text-decoration: underline;
 }
+/* Container that creates the two equal columns */
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two equal-width columns */
+  gap: 20px 40px;                         /* 20px vertical gap, 40px horizontal gap */
+  max-width: 600px;                       /* Keeps inputs from stretching too wide */
+}
+
+/* Vertical stacking for each label + input group */
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Label styling */
+.form-group label {
+  font-size: 0.75rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #555;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+}
+
+/* Input box styling */
+.form-group input {
+  padding: 8px 12px;
+  border: 1px solid #e5e7eb;
+  border-radius: 4px;
+  font-size: 1rem;
+  outline: none;
+}
+
+.form-group input:focus {
+  border-color: #ff5a79; /* Highlights pink on click */
+  box-shadow: 0 0 4px rgba(255, 90, 121, 0.4);
+}
