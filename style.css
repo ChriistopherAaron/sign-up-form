@@ -1,0 +1,13 @@
+.body {
+
+}
+.sidebar {
+
+
+
+}
+.content {
+    flex-direction: wrap;
+    align-items: right;
+    justify-content: flex-end;
+}
